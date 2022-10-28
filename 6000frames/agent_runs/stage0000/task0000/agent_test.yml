@@ -1,0 +1,15 @@
+experiment_directory: ./
+stage_idx: 0
+task_idx: 0
+output_path: ./agent_runs/stage0000/task0000
+node_local_path: /tmp
+num_intrinsic_outliers: 100
+num_extrinsic_outliers: 12
+intrinsic_score: lof
+extrinsic_score: rmsd
+n_traj_frames: 1000
+n_most_recent_h5_files: 12
+k_random_old_h5_files: 12
+sklearn_num_jobs: -1
+model_type: "AAE3d"
+inference_batch_size: 128
