@@ -26,3 +26,13 @@ PyTorch output are stored including checkpoints, embeddings, hyperparams and wei
 ### `agent_runs`
 Agent output are stored, for example, `lof.py` finds a new location to resume MD simulation. sklearn.neighbors.LocalOutlierFactor is used to calculate intrinsic_score/extrinsic_score.
 `virtual*`: metadata stored to build a single hdf5 dataset pointer
+
+# Environment Setup (TBD)
+
+- `conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch`
+- `conda install -c conda-forge scikit-learn`
+- `conda install -c conda-forge hdf5`
+- `conda install -c conda-forge mpi4py`
+- `conda install -c conda-forge wandb`
+- `conda install -c conda-forge matplotlib`
+- `pip install MDAnalysis`
